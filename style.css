@@ -75,37 +75,28 @@ h1 {
   font-size: 1.2rem;
 }
 
-.text {
-  font-size: 0.5rem;
-}
 .formContainer {
   background-color: #ddd;
   padding-right: 15vw;
   padding-left: 5%;
+  font-size: 0.7rem;
   box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.buttonsContainer {
+.inputsContainer {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
 }
-
-#fname,
-#email,
-#password {
+.inputsLeft {
   display: flex;
   flex-direction: column;
-  justify-content: center;
 }
 
-#lname,
-#phone,
-#psw-repeat {
+.inputsRight {
   display: flex;
   flex-direction: column;
-  justify-content: center;
 }
+
 .textBelow {
   margin-bottom: 15vh;
   margin-left: 5%;
