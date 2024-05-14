@@ -64,10 +64,22 @@ body {
   width: 100%;
   text-align: center;
 }
-
-.container {
-  background-color: #ddd;
+.text {
+  margin-left: 5%;
+  margin-top: 15vh;
 }
+.formContainer {
+  background-color: #ddd;
+  margin-left: 5%;
+  border-left: #ddd;
+  border-width: 5%;
+}
+.textBelow {
+  margin-bottom: 15vh;
+  margin-left: 5%;
+  margin-top: 15vh;
+}
+
 input[type="text"],
 input[type="password"] {
   width: 100%;
@@ -80,7 +92,7 @@ input[type="password"] {
 
 input[type="text"]:focus,
 input[type="password"]:focus {
-  background-color: #ddd;
+  background-color: #dddddd;
   outline: none;
 }
 
