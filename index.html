@@ -23,11 +23,16 @@
           <br />Sign up now to get started. <br /><br />You <em>know</em> you
           want to.
         </p>
+        <h1>Let's do this!</h1>
 
         <form action="action_page.php" style="border: 1px solid #ccc">
           <div class="formContainer">
-            <h1>Let's do this!</h1>
             <hr />
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" name="fname" /><br /><br />
+
+            <label for="lname">Last name:</label>
+            <input type="text" id="lname" name="lname" /><br /><br />
 
             <label for="email"><b>EMAIL</b></label>
             <input
@@ -36,6 +41,9 @@
               name="email"
               required
             />
+
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" />
 
             <label for="psw"><b>PASSWORD</b></label>
             <input
@@ -53,16 +61,16 @@
               required
             />
           </div>
-          <div class=""text below">
-          <p>
-            Already have an account
-            <a href="#" style="color: dodgerblue">Log in</a>.
-          </p>
+          <div class="textBelow">
+            <p>
+              Already have an account
+              <a href="#" style="color: dodgerblue">Log in</a>.
+            </p>
 
-          <div class="clearfix">
-            <button type="submit" class="signupbtn">Sign Up</button>
+            <div class="clearfix">
+              <button type="submit" class="signupbtn">Sign Up</button>
+            </div>
           </div>
-        </div>
         </form>
       </div>
     </div>
