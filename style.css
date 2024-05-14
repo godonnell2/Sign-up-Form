@@ -39,6 +39,8 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
+  padding-left: 5vw;
+  padding-right: 5vw;
 }
 #logoTitle {
   color: white;
