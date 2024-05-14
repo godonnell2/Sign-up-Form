@@ -24,40 +24,31 @@
           want to.
         </p>
 
-        <form action="action_page.php" style="border: 1px solid #ccc">
+        <form action="action_page.php">
           <div class="formContainer">
             <h1>Let's do this!</h1>
-            <div class="buttonsContainer">
-              <p>
-                <label for="fname"><b>FIRST NAME:</b></label>
+            <div class="inputsContainer">
+              <div class="inputsColumn">
+                <label for="fname"><b>FIRST NAME</b></label>
                 <input type="text" id="fname" name="fname" />
-              </p>
-              <p>
-                <label for="lname"><b>LAST NAME</b></label>
-                <input type="text" id="lname" name="lname" />
-              </p>
-              <p>
                 <label for="email"><b>EMAIL</b></label>
                 <input type="text" name="email" required />
-              </p>
-              <p>
-                <label for="phone"><b>PHONE:</b></label>
-                <input type="tel" id="phone" name="phone" />
-              </p>
-              <p>
                 <label for="psw"><b>PASSWORD</b></label>
                 <input type="password" name="psw" required />
-              </p>
-              <p>
+              </div>
+
+              <div class="inputsColumn">
+                <label for="lname"><b>LAST NAME</b></label>
+                <input type="text" id="lname" name="lname" />
+                <label for="phone"><b>PHONE</b></label>
+                <input type="tel" id="phone" name="phone" />
                 <label for="psw-repeat"><b>REPEAT PASSWORD</b></label>
                 <input type="password" name="psw-repeat" required />
-              </p>
+              </div>
             </div>
           </div>
           <div class="textBelow">
-            <div class="clearfix">
-              <button type="submit" class="signupbtn">Create Account</button>
-            </div>
+            <button type="submit" class="signupbtn">Create Account</button>
             <p>
               Already have an account
               <a href="#" style="color: dodgerblue">Log in</a>.

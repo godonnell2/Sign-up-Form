@@ -15,6 +15,7 @@
 }
 body {
   background-color: black;
+  font-family: sans-serif;
 }
 
 .left {
@@ -77,7 +78,7 @@ h1 {
 
 .formContainer {
   background-color: #ddd;
-  padding-right: 15vw;
+
   padding-left: 5%;
   font-size: 0.7rem;
   box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -86,27 +87,34 @@ h1 {
 .inputsContainer {
   display: flex;
   flex-direction: row;
-}
-.inputsLeft {
-  display: flex;
-  flex-direction: column;
+  gap: 4rem;
 }
 
-.inputsRight {
+.inputsColumn {
   display: flex;
   flex-direction: column;
 }
 
 .textBelow {
+  display: flex;
+  flex-direction: column;
   margin-bottom: 15vh;
   margin-left: 5%;
   margin-top: 5vh;
 }
 
-input[type="text"],
+input {
+  margin-bottom: 1rem;
+  border: solid 1px beige;
+  border-radius: 4px;
+}
+
+input:focus {
+  border-color: blue;
+}
+
+/* input[type="text"],
 input[type="password"] {
-  width: 30%;
-  padding: 15px;
   margin: 5px 0 22px 0;
   display: inline-block;
   border: none;
@@ -117,7 +125,7 @@ input[type="text"]:focus,
 input[type="password"]:focus {
   background-color: #dddddd;
   outline: none;
-}
+} */
 
 hr {
   border: 1px solid #f1f1f1;
