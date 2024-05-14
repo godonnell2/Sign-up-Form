@@ -63,7 +63,8 @@ body {
   width: 100%;
   text-align: center;
 }
-.text {
+.textTop,
+.tel {
   margin-left: 5%;
   font-size: 1.2rem;
   margin-top: 15vh;
@@ -74,11 +75,36 @@ h1 {
   font-size: 1.2rem;
 }
 
+.text {
+  font-size: 0.5rem;
+}
 .formContainer {
   background-color: #ddd;
   padding-right: 15vw;
   padding-left: 5%;
   box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.buttonsContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#fname,
+#email,
+#password {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#lname,
+#phone,
+#psw-repeat {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .textBelow {
   margin-bottom: 15vh;
