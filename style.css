@@ -35,7 +35,6 @@ body {
   background-color: rgba(0, 0, 0, 0.5);
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
   max-height: 14vh;
   align-items: center;
   padding-left: 5vw;
